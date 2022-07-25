@@ -3,7 +3,7 @@ import Logo from "../img/logo.png";
 import { motion } from "framer-motion";
 import { MdHorizontalSplit } from "react-icons/md";
 
-const Header = () => {
+const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     const displayMenu = () => {
@@ -15,12 +15,9 @@ const Header = () => {
         {/* Desktop */}
         <div className="hidden md:flex w-full h-full items-center justify-between">
             <motion.div    
-                animate={{
-                scale: [1, 2, 2, 1, 1],
-                rotate: [0, 0, 270, 270, 0],
-                borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-                }} 
-                className="flex items-center gap-2 cursor-pointer">
+            whileHover={{ scale: 1.4 }}
+            whileTap={{ scale: 0.8 }}
+            className="flex items-center gap-2 cursor-pointer">
                 <img src={Logo} className="w-20 object-cover" alt="logo" />
             </motion.div>
 
@@ -31,17 +28,26 @@ const Header = () => {
                 exit={{ opacity: 0, x: 200 }}
                 className="flex items-center gap-24 "
                 >
-                    <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+                    <motion.li
+                    whileHover={{ scale: 1.4 }}
+                    whileTap={{ scale: 0.8 }} 
+                    className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
                         About Us
-                    </li>
+                    </motion.li>
 
-                    <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-                        Services
-                    </li>
+                    <motion.li
+                    whileHover={{ scale: 1.4 }}
+                    whileTap={{ scale: 0.8 }} 
+                    className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+                        Our Services
+                    </motion.li>
 
-                    <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+                    <motion.li 
+                    whileHover={{ scale: 1.4 }}
+                    whileTap={{ scale: 0.8 }}
+                    className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
                         Get Social
-                    </li>
+                    </motion.li>
                 </motion.ul>
             </div>
         </div>
@@ -74,7 +80,7 @@ const Header = () => {
                   className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-primary px-4 py-2"
                   onClick={() => setShowMenu(false)}
                 >
-                  Services
+                  Our Services
                 </li>
 
                 <li
@@ -96,4 +102,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default NavBar

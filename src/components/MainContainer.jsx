@@ -1,38 +1,46 @@
 import React from 'react';
-import Hero from '../img/hero.png';
-
+import { motion } from 'framer-motion';
+import Logo  from '../img/logo.png';
 
 const MainContainer = () => {
   return (
-    <section
-    className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full bg-primary"
-    id="home"
-    >
-        <div className="pt-16 flex-1 flex items-center relative">
-        <img
-          src={Hero}
-          className="ml-auto h-auto w-full lg:w-500 lg:h-650"
-          alt="hero-bg"
-        />
-        </div>
+    <div className="flex flex-col gap-8 items-center mt-2 py-8 px-4 md:py-8 md:px-16">
+       <div>
+        <h1 className='text-[1.5rem] lg:text-[2.5rem] text-secondary font-bold tracking-wide underline underline-offset-8'
+        >About Us
+        </h1>
+       </div>
 
-        <div className="pb-20 px-6 md:px-12 flex-1 flex flex-col items-start justify-center gap-6">
-            <div className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
-                <p>This is Africa.</p>
-                <p className="text-detailsRed text-[3rem] lg:text-[5rem]">We're Africa.</p>
+       <div className='grid grid-cols-1 gap-8 md:gap-2 md:grid-cols-2 mt-6'>
+            <div className="flex items-center justify-center">
+                    <img src={Logo}>
+                    </img>
             </div>
 
-            <p className="text-base text-textColor text-left md:w-[80%]">
-              Afrocentric brings you the best collection of authentic African products. Don't just buy 
-              <span className='text-headingColor'> African</span>, <span className='text-headingColor'>connect 
-              with Africa</span>. From designers to tailors and models, we have you covered. <br></br>
-              <p className="py-6">Sign Up to get ready for launch!</p>
-            </p>
-        </div>
+            <div>
+                <motion.div
+                whileHover={{ scale: 1.2, rotate: 5 }}
+                whileTap={{ scale: 0.8 }}
+                className='flex items-center text-3xl text-secondary rounded-lg cursor-pointer bg-brightAmber p-6'>
+                    <p className='text-base text-primary text-left' >Afrocentric was founded in 2019 with the aim of making authentic African fashion accessible 
+                    on <span className='text-detailsRed'>a global scale.</span></p>
+                </motion.div>
+            </div>
+            <div>
+                <motion.div
+                whileHover={{ scale: 1.1, rotate: -5}}
+                whileTap={{ scale: 0.8 }}      
+                className='flex items-center text-3xl text-textColor rounded-lg cursor-pointer bg-detailsRed p-6'>
+                    <p className='text-base text-left' >Afrocentric was founded in 2019 with the aim of making authentic African fashion accessible 
+                    on <span className='text-detailsRed'>a global scale.</span></p>
+                </motion.div>
+            </div>
+       </div> 
 
+        <div></div>
 
-    </section>
+    </div>
   )
 }
 
-export default MainContainer;
+export default MainContainer

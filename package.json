@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@formspree/react": "^2.3.0",
     "@iconify-icons/heroicons-outline": "^1.2.2",
     "autoprefixer": "^10.4.7",
     "framer-motion": "^6.5.1",
