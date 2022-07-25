@@ -13,7 +13,7 @@ const Hero = () => {
     id="home"
     >
         <motion.div 
-        whileHover={{ scale: 1.2 }}
+        whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.8 }}
         className="pt-8 flex-1 flex items-center relative">
             <img
@@ -23,18 +23,18 @@ const Hero = () => {
             />
         </motion.div>
 
-        <div className="md:pt-12  md:px-8 flex-1 flex flex-col items-start justify-center gap-4">
+        <div className="md:pt-12  md:px-8 flex-1 flex flex-col items-start justify-center gap-4 cursor-default">
             <div className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
                 <p>This is Africa.</p>
                 <p className="text-detailsRed md:text-[3rem] lg:text-[5rem]">We're Africa.</p>
             </div>
 
-            <p className="text-base text-textColor text-left md:w-[80%]">
+            <h6 className="text-base text-textColor text-left md:w-[80%]">
               Afrocentric brings you the best collection of authentic African products. Don't just buy 
               <span className='text-headingColor'> African</span>, <span className='text-headingColor'>connect 
               with Africa</span>. From designers to tailors and models, we have you covered. <br></br>
               <p className="py-6">Subscribe and get ready for launch 🚀</p>
-            </p>
+            </h6>
 
             <div className='w-full'  >
                 <Form />

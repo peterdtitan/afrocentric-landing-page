@@ -32,7 +32,7 @@ const NavBar = () => {
                     whileHover={{ scale: 1.4 }}
                     whileTap={{ scale: 0.8 }} 
                     className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-                        About Us
+                     About Us
                     </motion.li>
 
                     <motion.li
