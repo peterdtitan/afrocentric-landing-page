@@ -52,6 +52,7 @@ module.exports = {
         textGrey: "#a6a6a6",
         primary: "#222831",
         secondary: "#393E46",
+        offWhite: "#b8bcc2",
         detailsRed: "#D61C4E",
         logoGreen: "#188c54",
         brightAmber: "#FEB139",

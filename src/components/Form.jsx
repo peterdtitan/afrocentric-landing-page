@@ -33,7 +33,7 @@ function ContactForm() {
       errors={state.errors}
     />
     <button
-    className='p-2 rounded-lg text-textColor bg-detailsRed'
+    className='p-2 rounded-lg text-textColor cursor-pointer bg-detailsRed'
     type="submit" disabled={state.submitting}>
     Let's Go! 🚀
     </button>
