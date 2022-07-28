@@ -22,7 +22,7 @@ const NavBar = () => {
             whileHover={{ scale: 1.4 }}
             whileTap={{ scale: 0.8 }}
             className="flex items-center gap-2 cursor-pointer">
-                <img src={Logo} className="w-20 object-cover" alt="logo" />
+                <img src={Logo} className="w-32 object-cover" alt="logo" />
             </motion.div>
 
             <div className="flex items-center gap-8">
@@ -68,7 +68,7 @@ const NavBar = () => {
         {/* Mobile */} 
         <div className="flex items-center justify-between md:hidden w-full h-full py-2">
             <div className="flex items-center gap-2">
-                <img src={Logo} className="w-20 object-cover" alt="logo" />
+                <img src={Logo} className="w-28 object-cover" alt="logo" />
             </div>
 
             <div className="justify-flex-end">
