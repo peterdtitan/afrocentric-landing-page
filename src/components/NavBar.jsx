@@ -78,7 +78,7 @@ const NavBar = () => {
                     initial={{ opacity: 0, scale: 0.6 }}
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.6 }}
-                    className="w-40 bg-secondary shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
+                    className="w-[50%] bg-secondary shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
             >
               <ul className="flex flex-col ">
               <Link to="#about">
