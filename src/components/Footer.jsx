@@ -36,18 +36,16 @@ const Footer = () => {
                             <p className="text-sm align-text-bottom hover:text-brightAmber">afrocentrickulture@gmail.com</p>
                         </a>
                     </div>  
-                    
                 </div>
-
             </div>
 
             <div className='flex flex-col text-textColor gap-8'>
                 <h2 className='flex justify-center underline underline-offset-8'>FOLLOW US</h2>
                 <div className='flex items-center gap-4 sm:justify-center cursor-pointer'>
-                    <a href='https://twitter.com/AfrocentricKul1' target='_blank' rel="noreferrer"><motion.img whileHover={{ scale: 1.35}} src={Twitter} className='h-8 w-8' alt='twitter' /></a>
-                    <a href='https://www.instagram.com/afrocentrickulture/' target='_blank' rel="noreferrer"><motion.img src={Instagram} className='h-8 w-8' alt='instagram' /></a>
-                    <a href='https://www.linkedin.com/company/afrocentric-kulture' target='_blank' rel="noreferrer"><motion.img src={Linkedin} className='h-8 w-8' alt='linkedin' /></a>
-                    <a href='https://www.facebook.com/AFKulture' target='_blank' rel="noreferrer"><motion.img src={Facebook} className='h-8 w-8' alt='facebook'/></a>
+                    <a href='https://twitter.com/AfrocentricKul1' target='_blank' rel="noreferrer"><motion.img whileHover={{ scale: 1.35}} whileTap={{ scale: 1.35}} src={Twitter} className='h-8 w-8' alt='twitter' /></a>
+                    <a href='https://www.instagram.com/afrocentrickulture/' target='_blank' rel="noreferrer"><motion.img whileHover={{ scale: 1.35}} whileTap={{ scale: 1.35}} src={Instagram} className='h-8 w-8' alt='instagram' /></a>
+                    <a href='https://www.linkedin.com/company/afrocentric-kulture' target='_blank' rel="noreferrer"><motion.img whileHover={{ scale: 1.35}} whileTap={{ scale: 1.35}} src={Linkedin} className='h-8 w-8' alt='linkedin' /></a>
+                    <a href='https://www.facebook.com/AFKulture' target='_blank' rel="noreferrer"><motion.img whileHover={{ scale: 1.35}} whileTap={{ scale: 1.35}} src={Facebook} className='h-8 w-8' alt='facebook'/></a>
                 </div>
             </div>
         </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import HeroImg from '../img/hero.png';
 import {motion} from 'framer-motion';
-import { useForm, ValidationError } from '@formspree/react';
 import Form from '../components/Form';
 
 
@@ -36,7 +35,7 @@ const Hero = () => {
               <p className="py-6">Subscribe and get ready for launch 😉</p>
             </h6>
 
-            <div className='w-full'  >
+            <div className='w-full' id='cta'>
                 <Form />
 
             </div>
