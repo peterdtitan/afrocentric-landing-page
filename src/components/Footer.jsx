@@ -34,10 +34,10 @@ const Footer = () => {
             <div className='flex flex-col'>
                 <h2>FOLLOW US</h2>
                 <div className='flex items-center gap-4 sm:justify-center cursor-pointer'>
-                    <a href='https://twitter.com/AfrocentricKul1' target='_blank'><img src={Twitter} className='h-10 w-10' /></a>
-                    <a href='https://www.instagram.com/afrocentrickulture/' target='_blank'><img src={Instagram} className='h-10 w-10' /></a>
-                    <a href='https://www.linkedin.com/company/afrocentric-kulture' target='_blank'><img src={Linkedin} className='h-10 w-10' /></a>
-                    <a href='https://www.facebook.com/AFKulture' target='_blank'><img src={Facebook} className='h-10 w-10' /></a>
+                    <a href='https://twitter.com/AfrocentricKul1' target='_blank' rel="noreferrer"><img src={Twitter} className='h-10 w-10' alt='twitter' /></a>
+                    <a href='https://www.instagram.com/afrocentrickulture/' target='_blank' rel="noreferrer"><img src={Instagram} className='h-10 w-10' alt='instagram' /></a>
+                    <a href='https://www.linkedin.com/company/afrocentric-kulture' target='_blank' rel="noreferrer"><img src={Linkedin} className='h-10 w-10' alt='linkedin' /></a>
+                    <a href='https://www.facebook.com/AFKulture' target='_blank' rel="noreferrer"><img src={Facebook} className='h-10 w-10' alt='facebook'/></a>
                 </div>
             </div>
 
