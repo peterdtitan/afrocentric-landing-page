@@ -28,14 +28,14 @@ const Hero = () => {
                 <p className="text-detailsRed md:text-[3rem] lg:text-[5rem]">We're Africa.</p>
             </div>
 
-            <h6 className="text-base text-textColor text-left md:w-[80%]">
+            <h6 className="text-base text-textColor text-left md:w-[80%]" id='cta'>
               Afrocentric brings you the best collection of authentic African products. Don't just buy 
               <span className='text-headingColor'> African</span>, <span className='text-headingColor'>connect 
               with Africa</span>. From designers to tailors and models, we have you covered. <br></br>
               <p className="py-6">Subscribe and get ready for launch 😉</p>
             </h6>
 
-            <div className='w-full' id='cta'>
+            <div className='w-full'>
                 <Form />
 
             </div>
