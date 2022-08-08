@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
     <section
-    className="grid grid-cols-1 px-4 md:px-0 md:pt-16 md:grid-cols-2 gap-2 w-full bg-primary pb-10"
+    className="grid grid-cols-1 px-4 md:px-0 md:pt-16 md:grid-cols-2 gap-2 w-full bg-primary pb-24"
     id="home"
     >
         <motion.div 
