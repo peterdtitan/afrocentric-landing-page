@@ -32,8 +32,8 @@ const Footer = () => {
 
                     <div className='flex gap-2 items-center justify-center'>
                         <HiOutlineMailOpen className='text-2xl align-text-bottom'/>
-                        <a href="mailto:afrocentrickulture@gmail.com" target="_blank">
-                            <p className="text-sm align-text-bottom hover:text-brightAmber">afrocentrickulture@gmail.com</p>
+                        <a href="mailto:admin@afrocentric.com" target="_blank">
+                            <p className="text-sm align-text-bottom hover:text-brightAmber">admin@afrocentric.com</p>
                         </a>
                     </div>  
                 </div>
