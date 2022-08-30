@@ -18,7 +18,7 @@ const Footer = () => {
                 <img src={Logo} className="w-48 object-cover" alt="logo" />
                 <div className='text-textColor text-xs py-6'>
                     <p>Afrocentric Kulture LLC.</p>
-                    <p>Licensed, registered in the US</p>
+                    <p>Licensed & Registered</p>
                 </div>
             </div>
 
