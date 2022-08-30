@@ -8,7 +8,6 @@ function App() {
     <AnimatePresence exitBeforeEnter>
       <NavBar />
       <Hero />
-      <MainContainer />
       <Services />
       <Footer />
     

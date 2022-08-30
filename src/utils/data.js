@@ -29,7 +29,7 @@ export const imageData = [
       id: 1,
       image: "/hero7.jpg",
       title: "We are Africa!",
-      desc: "The largest collection of the best in African fashion globally. This is Afrocentric."
+      desc: "The largest collection of the best in African fashion globally. From designers, to models and craftsmen, we are home to all."
     },
   
     {
@@ -49,25 +49,25 @@ export const imageData = [
         id: 4,
         image: "/hero4.jpg",
         title: "Fast Shipping",
-        desc: "Premium fast shipping and handling of all products in your cart."
+        desc: "Premium fast shipping and handling of all products in your cart. We take pride in ensuring your order satisfaction."
       },
       {
         id: 5,
         image: "/hero5.jpg",
         title: "Widest Categories",
-        desc: "Every category you can think of, we've got it covered."
+        desc: "Every category you can think of, we've got it covered. From pure fashion fits to accessories and bespoke, we've got it all."
       },
       {
         id: 6,
         image: "/hero1.jpg",
         title: "Best Eco-system",
-        desc: "We are set to be the best fashion ecoststem connecting Africa to the world."
+        desc: "We are set to be the best fashion ecoststem connecting Africa to the world with an all new intuitive approach to our Community and Blog."
       },
       {
         id: 7,
         image: "/hero2.jpg",
         title: "Coming Soon",
-        desc: "Subscribe to our newsletter to stay updated for launch day."
+        desc: "With our beta app launch coming soon, subscribe to our newsletter to stay updated and be one of the very first."
       }
 ]
 
