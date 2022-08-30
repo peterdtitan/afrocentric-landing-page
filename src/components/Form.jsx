@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 function ContactForm() {
   const [state, handleSubmit] = useForm("xnqwewap");
   if (state.succeeded) {
-      return <p className='ml-[20%] p-2 w-[50%] bg-black text-center cursor-default text-white align-center'>Thanks for joining!</p>;
+      return <p className='ml-[20%] p-2 w-[50%] bg-detailsRed text-center cursor-default text-white align-center'>Thanks for joining!</p>;
   }
   return (
     <form

@@ -12,7 +12,7 @@ import Facebook from '../img/facebook.svg';
 const Footer = () => {
   return (
     <div id='get-social' 
-    className='bg-primary pt-10'>
+    className='bg-primary pt-10 font-sans'>
         <div className='flex flex-col md:flex-row px-4 md:px-16 py-6 items-center md:items-start gap-12 justify-between'>
             <div className=" md:flex md:flex-col items-start gap-2 cursor-pointer">
                 <img src={Logo} className="w-48 object-cover" alt="logo" />

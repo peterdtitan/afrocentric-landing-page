@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <BrowserRouter>
     <div
-    className='flex flex-col p-6 md:pt-12' id='services'>
+    className='flex flex-col p-6 md:pt-12 font-sans' id='services'>
       <div className='flex items-center justify-center pt-6'>
         <h1 className='text-[1.5rem] lg:text-[2.5rem] p-2 border-0 rounded-lg text-black font-bold tracking-wide underline underline-offset-8'
         >Services
