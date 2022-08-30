@@ -2,12 +2,16 @@ import React from 'react';
 import HeroImg from '../img/hero.png';
 import {motion} from 'framer-motion';
 import Form from '../components/Form';
+import { imageData } from '../utils/data';
+import Slider from './Slider';
 
 
 const Hero = () => {
 
   return (
-    <section
+    <div>
+      <Slider slides={imageData} />
+      <section
     className="grid grid-cols-1 px-4 md:px-0 md:pt-16 md:grid-cols-2 gap-2 w-full bg-primary pb-24"
     id="home"
     >
@@ -43,7 +47,9 @@ const Hero = () => {
         </div>
 
 
-    </section>
+      </section>
+    </div>
+
   )
 }
 

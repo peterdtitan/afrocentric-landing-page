@@ -24,3 +24,50 @@ export const serviceData = [
     },
 ] 
 
+export const imageData = [
+    {
+      id: 1,
+      image: "/hero7.jpg",
+      title: "We are Africa!",
+      desc: "The largest collection of the best in African fashion globally. This is Afrocentric."
+    },
+  
+    {
+      id: 2,
+      image: "/hero6.jpg",
+      title: "Shop Authentic Brands",
+      desc: "Providing access to authentic products verified by us. This means you shop stress free and get the best quality."
+    },
+    {
+        id: 3,
+        image: "/hero3.jpg",
+        title: "Unbeatable Discounts",
+        desc: "With massive discounts and sales, you are guaranteed to keep adding products to your cart."
+      },
+    
+      {
+        id: 4,
+        image: "/hero4.jpg",
+        title: "Fast Shipping",
+        desc: "Premium fast shipping and handling of all products in your cart."
+      },
+      {
+        id: 5,
+        image: "/hero5.jpg",
+        title: "Widest Categories",
+        desc: "Every category you can think of, we've got it covered."
+      },
+      {
+        id: 6,
+        image: "/hero1.jpg",
+        title: "Best Eco-system",
+        desc: "We are set to be the best fashion ecoststem connecting Africa to the world."
+      },
+      {
+        id: 7,
+        image: "/hero2.jpg",
+        title: "Coming Soon",
+        desc: "Subscribe to our newsletter to stay updated for launch day."
+      }
+]
+

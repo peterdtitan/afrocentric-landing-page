@@ -50,7 +50,7 @@ module.exports = {
         headingColor: "#FFD369",
         textColor: "#EEEEEE",
         textGrey: "#a6a6a6",
-        primary: "#222831",
+        primary: "#000000",
         secondary: "#393E46",
         offWhite: "#b8bcc2",
         detailsRed: "#D61C4E",
