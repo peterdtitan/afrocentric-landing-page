@@ -19,7 +19,6 @@ function ContactForm() {
     name="name"
     placeholder='Your Name'
   />
-
     <input
       className='p-2'
       id="email"
@@ -32,6 +31,13 @@ function ContactForm() {
       field="email"
       errors={state.errors}
     />
+    <label for="role" className='text-white'>Select your category below</label>
+    <select id="role" name='role' className='p-2' type="text" placeholder="Who are you?" required>
+      <option value="Customer">Fashion Enthusiast (Consumer)</option>
+      <option value="Designer">Designer</option>
+      <option value="Model">Model</option>
+      <option value="Craftsman">Craftsman (Accessory makers, tailors, e.t.c)</option>
+    </select>
     <button
     className='p-2 text-textColor cursor-pointer bg-black'
     type="submit" disabled={state.submitting}>
