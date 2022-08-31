@@ -35,7 +35,7 @@ function ContactForm() {
     <button
     className='p-2 text-textColor cursor-pointer bg-black'
     type="submit" disabled={state.submitting}>
-    Let's Go! 🚀
+    Subscribe
     </button>
   </form>
 
