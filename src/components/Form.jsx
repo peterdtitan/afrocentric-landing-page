@@ -12,13 +12,14 @@ function ContactForm() {
     <form
     className='w-full md:w-[80%] flex flex-col gap-2'
     onSubmit={handleSubmit}>
+    {/*
     <input
     className='p-2'
     id="name"
     type="text" 
     name="name"
     placeholder='Your Name'
-  />{/*
+  />
     <input
       className='p-2'
       id="email"
