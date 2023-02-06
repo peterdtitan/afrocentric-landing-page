@@ -43,7 +43,7 @@ function ContactForm() {
     type="submit" disabled={state.submitting}>
     Subscribe
   </button>*/}
-  <p className='p-2 bg-white text-black'>No Longer Accepting Input</p>
+  <p className='p-2 bg-red-600 text-white'>No Longer Accepting Input</p>
   </form>
 
   );
