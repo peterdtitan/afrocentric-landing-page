@@ -18,7 +18,7 @@ function ContactForm() {
     type="text" 
     name="name"
     placeholder='Your Name'
-  />
+  />{/*
     <input
       className='p-2'
       id="email"
@@ -42,7 +42,8 @@ function ContactForm() {
     className='p-2 text-textColor cursor-pointer bg-black'
     type="submit" disabled={state.submitting}>
     Subscribe
-    </button>
+  </button>*/}
+  <p className='p-2 bg-white text-black'>No Longer Accepting Input</p>
   </form>
 
   );
